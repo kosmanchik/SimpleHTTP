@@ -1,0 +1,13 @@
+### List
+GET http://localhost:8080/shopping-items
+
+### Create new item
+POST http://localhost:8080/shopping-items
+Content-Type: application/json
+
+{
+    "name": "Ramen"
+}
+
+### Delete item
+DELETE http://localhost:8080/shopping-items/uuid
